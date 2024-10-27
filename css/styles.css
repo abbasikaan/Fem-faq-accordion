@@ -16,6 +16,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  /* outline: 2px solid tomato; */
 }
 
 
@@ -151,6 +152,29 @@ img {
 }
 
 
+.card__footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -95px;
+}
+
+.attribution {
+  font-size: 1.6rem;
+}
+
+.attribution a {
+  text-decoration: none;
+
+}
+
+.attribution a:active:hover {
+  color: var(--color-Dark-purple);
+}
+
+.attribution a:visited:hover {
+  color: hsl(293, 87%, 43%);
+}
 
 @media(max-width: 700px) {
   .header__image .image--desktop {
