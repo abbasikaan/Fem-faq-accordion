@@ -1,5 +1,10 @@
 @import './normalize.css';
 
+@font-face {
+  font-family: 'Work sans';
+  src: url(../assets/fonts/OFL.txt);
+}
+
 :root {
   --color-white: hsl(0, 0%, 100%);
   --color-light-pink: hsl(275, 100%, 97%);
@@ -92,6 +97,7 @@ img {
   font-weight: 500;
   font-weight: 400;
 }
+
 
 
 .divider {
