@@ -1,1 +1,189 @@
 @import './normalize.css';
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-pink: hsl(275, 100%, 97%);
+  --color-Grayish-purple: hsl(292, 16%, 49%);
+  --color-Dark-purple: hsl(292, 42%, 14%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+::selection {
+  background: var(--color-light-pink);
+  color: var(--color-Dark-purple);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Work sans', serif;
+  background: var(--color-light-pink);
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+
+.card {
+  background: var(--color-white);
+  margin: 3.2rem 5.2rem;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 0 24px;
+  position: relative;
+  z-index: 1;
+  top: -110px;
+}
+
+.card__header {
+  width: 100%;
+  justify-content: space-between;
+  width: 2.8rem;
+  height: 3.8rem;
+  display: flex;
+  gap: 2.4rem;
+  margin: 24px 0;
+}
+
+.card__heading,
+.collapsible__heading {
+  color: var(--color-Dark-purple);
+}
+
+.card__heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.collapsible__heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.collapsible__heading:hover {
+  color: hsl(293, 87%, 43%);
+}
+
+.card__icon {
+  width: 30px;
+  height: 30px;
+}
+
+.collapsible__content p {
+  color: var(--color-Grayish-purple);
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+  font-weight: 400;
+}
+
+
+.divider {
+  height: 2px;
+  background: var(--color-light-pink);
+  margin: 2rem 0;
+}
+
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible__plus-icon,
+.collapsible__minus-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+
+.collapsible__heading {
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.collapsible__minus-icon {
+  display: none;
+}
+
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+}
+
+.collapsible--expanded .collapsible__plus-icon {
+  display: none;
+}
+
+.collapsible--expanded .collapsible__minus-icon {
+  display: block;
+
+}
+
+
+
+@media(max-width: 700px) {
+  .header__image .image--desktop {
+    display: none;
+  }
+}
+
+@media(min-width: 700px) {
+
+  .header__image .image--mobile {
+    display: none;
+  }
+
+  .card {
+    max-width: 600px;
+    padding: 40px;
+    margin: 0 auto;
+    top: -170PX;
+  }
+
+  .card__header {
+    margin-bottom: 3.2rem;
+  }
+
+  .header__icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card__heading {
+    font-size: 4rem;
+  }
+
+
+  .collapsible__heading {
+    font-size: 1.8rem;
+  }
+
+  .divider {
+    margin: 2.4rem 0;
+  }
+}
