@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Work sans';
-  src: url(/assets/fonts/WorkSans-VariableFont_wght.ttf);
+  src: url(../assets/fonts/WorkSans-VariableFont_wght.ttf);
 }
 
 :root {
@@ -33,11 +33,6 @@ body {
   font-family: 'Work sans', serif;
   background: var(--color-light-pink);
   font-size: 1.4rem;
-}
-
-
-img {
-  width: 100%;
 }
 
 
