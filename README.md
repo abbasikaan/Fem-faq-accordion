@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-built-with-html-css-javascript-y3LA0ezf7E](https://your-solution-url.com)
 -   Live Site URL: [https://abbasikaan.github.io/fem-faq-accordion/](https://abbasikaan.github.io/fem-faq-accordion/)
 
 ### Built with
