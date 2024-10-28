@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://abbasikaan.github.io/fem-faq-accordion/)
+-   Live Site URL: [https://abbasikaan.github.io/fem-faq-accordion/](https://abbasikaan.github.io/fem-faq-accordion/)
 
 ### Built with
 
