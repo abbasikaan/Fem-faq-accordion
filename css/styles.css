@@ -1,4 +1,4 @@
-@import '../normalize.css';
+@import '../css/normalize.css';
 
 @font-face {
   font-family: 'Work sans';
@@ -33,6 +33,10 @@ body {
   font-family: 'Work sans', serif;
   background: var(--color-light-pink);
   font-size: 1.4rem;
+}
+
+img {
+  width: 100%;
 }
 
 
