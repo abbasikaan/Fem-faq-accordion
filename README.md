@@ -49,5 +49,5 @@ Users should be able to:
 ## Author
 
 -   Website - [Younos Abbasi](https://www.your-site.com)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+-   Frontend Mentor - [@abbasikaan](https://www.frontendmentor.io/profile/@abbasikaan)
 -   Twitter - [@yourusername](https://www.twitter.com/yourusername)
